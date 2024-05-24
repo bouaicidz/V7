@@ -1,8 +1,3 @@
-
-
-
-
-
 function Active() {
     if (HomeUrl === true) {
         Bouaici = void 0 !== HomeUrl ? HomeUrl : "/p/contact-us.html";
