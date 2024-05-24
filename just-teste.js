@@ -1,9 +1,85 @@
+
+
+
+
+
 function Active() {
     if (HomeUrl === true) {
         Bouaici = void 0 !== HomeUrl ? HomeUrl : "/p/contact-us.html";
     } else {
         Bouaici = void 0 !== HomeUrl ? HomeUrl : "/p/contact-us.html";
     }
+    var t = Bouaici
+      , Linkk = window['location']['href']['toLowerCase']();
+    if (Linkk['indexOf']('www.blogger') == -1 && Linkk['indexOf']('draft.blogger') == -1 && Linkk['indexOf']('template-editor') == -1 && Linkk['indexOf']('post-preview') == -1 && Linkk['indexOf']('b/layout-preview') == -1 && Linkk['indexOf']('b/blog-preview') == -1 && Linkk['indexOf']('b/preview') == -1 && Linkk['indexOf']('b/html-preview') == -1 && Linkk['indexOf']('b/app-preview') == -1 && Linkk['indexOf']('translate.google') == -1 && Linkk['indexOf']('webcache.googleusercontent') == -1) {
+        "undefined" != typeof _WidgetManager && (t = _WidgetManager._GetAllData().blog.homepageUrl);
+        var e = ["color: #c31432", "font-size:20px", "font-weight: bold"].join(";")
+          , a = ["color: #434752", "font-size:12px", "font-weight: bold"].join(";")
+          , s = ["background: #c31432", "color: #ffffff", "font-size:12px", "padding: 0 5px", "margin: 2px 0", "border-radius: 30px"].join(";")
+          , o = t.toLowerCase()
+          , n = "Bouaici  Template - Bouaici  Template"
+          , i = "" + trans[27]
+          , r = "https://raw.githack.com/bouaicidz/V7/main/just-teste.js" + o + "&keyactive=" + copyrights.active + "&version=7.0.0&product=" + n + "&action=copyrights"
+          , l = {
+            team: "Bouaici",
+            link: "https://just-teste-me.blogspot.com"
+        }
+          , d = {
+            copyright: function(t) {
+                t && ($("html").html('<div style="font: 14px -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;position: fixed;overflow-x: hidden;background: #f8f8f8;top: 0;left: 0;right: 0;bottom: 0;width: 100%;height: 100%;z-index: 1;text-align: center;"><div style="position: relative;padding: 2em;width: 80%;max-width: 600px;min-width: 200px;margin: 5em auto;background: white;box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2), 0px 1px 1px 0 rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);-webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2), 0px 1px 1px 0 rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);"><div><div style="color: #fff; position: absolute; margin: 0 auto; left: 0; right: 0; top: -25px; width: 50px; height: 50px; line-height: 50px; border-radius: 50%; -webkit-border-radius: 50%; z-index: 9; background: #c31432; padding: 0; text-align: center; box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.26); -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.26); font-size: 2em; font-family: arial; text-decoration: none;"><span>©</span></div><h4 style="text-align: center; font-size: 26px; margin: 30px 0 15px;line-height: normal;">عفواً..!!</h4></div><div style="position: relative;padding: 5px;text-align: right;font-size: 14px;"><p>لا يمكنك إستخدام هذا القالب .. هذا التوقف يحدث تلقائياً بسبب مايلي ..</p><p><span style="font-size: 17px; font-weight: bold; color: #c31432;">1</span>-العبث بحقوق ملكية التصميم!..كإخفاء توقيع المصمم</p><p><span style="font-size: 17px; font-weight: bold; color: #c31432;">2</span>-لا تملك رخصة؟ .. للحصول على تفعيل القالب يرجى<a style="color: #c31432;font-size: 14px; font-weight: 400;" href="https://just-teste-me.blogspot.com/?view=Activation&type=request"> طلب رخصة </a></p><p><span style="font-size: 17px; font-weight: bold; color: #c31432;">3</span>-تملك رخصة ومع ذلك لا تستطيع إستخدام هذا القالب .. يرجى التواصل بـ  <a style="color: #c31432;font-size: 14px; font-weight: 400;" href="https://mail.google.com/mail/?ui=2&view=cm&fs=1&tf=1&to=bouaici@gmail.com&su=طلب الدعم الفني للمنتج (Bouaici  Template - Bouaici  Template)&body=أكتب مشكلتك هنا..."> فريق الدعم </a></p></div><div style="text-align: center; overflow: hidden;"><a style="color: #fff;background: #c31432;text-decoration: none;display: block;max-width: 180px;padding: 10px 12px;margin: 5px auto;font-size: 14px;font-weight: 400;line-height: 1.42857143;text-align: center;white-space: nowrap;vertical-align: middle;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;background-image: none;border: 0;box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2), 0px 1px 1px 0 rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);-webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2), 0px 1px 1px 0 rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);" href="https://just-teste-me.blogspot.com">الصفحة الرسمية</a></div></div></div>'),
+                setInterval(function() {
+                    window.location.href = t
+                }, 6e4))
+            },
+            macros: function(t, e, a, s, o, n, r) {
+                if (!0 === n && window.location.hostname == t) {
+                    var l = "<abbr>© " + (new Date).getFullYear() + "</abbr> " + i + " - <a href='" + HomeUrl + "'>" + blogTitle + "</a>";
+                    $("#source-org").html(l),
+                    $("#licenseKey").remove()
+                } else
+                    d.copyright(e.link);
+                if (0 !== $("#copyrights").length) {
+                    if (!0 === r) {
+                        var c = "<span class='created-using-layers impo'><a class='impo' tooltip='" + e.team + "' href='" + e.link + "' target='_blank' style='display: block;'></a></span>";
+                        $("#copyrights").addClass("impo").append(c),
+                        setInterval(function() {
+                            $(".impo").each(function() {
+                                ($(this).css("opacity") < 1 || "hidden" == $(this).css("visibility") || $(this).is(":hidden")) && d.copyright(e.link)
+                            })
+                        }, 2e3)
+                    }
+                } else
+                    d.copyright(e.link);
+                console.log("%c" + a + "\n%cURL: " + e.link + "\nby: " + e.team + "\nCopyright: 2019", s, o)
+            }
+        };
+        jQuery.ajax({
+            timeout: 1e4,
+            url: r,
+            method: "GET",
+            dataType: "jsonp",
+            async: !0,
+            beforeSend: function() {},
+            success: function(t) {
+                var o = t.records
+                  , i = o.status
+                  , r = o.created
+                  , l = o.version
+                  , c = o.by
+                  , p = o.host;
+                d.macros(p, c, n, e, a, i, r),
+                console.log("%cStatus: " + i + "\nCreated: " + r + "\nVersion: 2.1.1 (" + l + ")", s)
+            },
+            error: function(t, o, i) {
+                d.macros(window.location.hostname, l, n, e, a, !0, !0),
+                console.log("%cStatus: " + o + "\nVersion=7.0.0", s)
+            }
+        })
+    } else {
+        var styles4 = ['background: #c31432', 'color: #ffffff', 'font-size:12px', 'padding: 0 5px', 'margin: 2px 0', 'border-radius: 30px'].join(';');
+        console.log('%cStatus: true\nCreated: true\nVersion=7.0.0', styles4)
+    }
+}
 Active();
 var getTitle, getLink, getSnippet, getNameAuthor, getUrlAuthor, getImgAuthor, getCategory, CategoryHtml, getImage, thumbUrl, youtube_id, getPublisher, getDate, setDate, Format_Archive, numComments, setComments, newArrayMap = new Array(26).fill(1).map((t,e)=>String.fromCharCode(97 + e)), newArrayMapLow = new Array(26).fill(1).map((t,e)=>String.fromCharCode(65 + e)), o = $("body").html().match(new RegExp("'" + newArrayMap[1] + newArrayMap[11] + newArrayMap[14] + newArrayMap[6] + newArrayMapLow[8] + newArrayMap[3] + "':.+?,"))[0].replace(/[^0-9]/g, ""), p = !1, q = window.location.href, r = "undefined" != typeof BouaiciSet ? BouaiciSet : {}, comment_system = r["comment-system"] || "blogger", face_id = r["fb-id"] || "", disqus_id = r["dis-id"] || "", numMax = r["max-results"] || 10, max_intro = r["max-intro"] || 10, max_ticker = r["max-ticker"] || 20, max_v_carousel = r["ve-carousel-max"] || 2, max_related = r["max-rel"] || 10, time_dur_mutual = r["h-mutual-dur"] || 5e3, time_dur_vCarousel = r["ve-carousel-dur"] || 3e3, option_comments = void 0 === r["option-comments"] || r["option-comments"], No_Mouse = void 0 !== r.NoMouse && r.NoMouse, lazy_load = void 0 === r["lazy-load"] || r["lazy-load"], lazy_body = void 0 !== r["lazy-body"] && r["lazy-body"], No_Select = void 0 === r.NoSelect || r.NoSelect, toc_sys = void 0 === r.toc || r.toc, sticky_aside = void 0 === r["sticky-aside"] || r["sticky-aside"], menu_fixed = void 0 !== r["menu-fixed"] && r["menu-fixed"], navtop_fixed = void 0 !== r["navtop-fixed"] && r["navtop-fixed"], repeat_midad = void 0 !== r["repeat-midad"] && r["repeat-midad"], repeat_indexad = void 0 !== r["repeat-indexad"] ? r["repeat-indexad"] : 0, support_webp = void 0 !== r["sup-web"] && r["sup-web"], author_page = r["authors-page"], errFeed = "<div class='widget-error'><b>" + trans[1] + "</b><p>" + trans[2] + "</p></div>", SVGicon = ["khamsat", "mostaql", "tradent", "google-play", "messenger", "blogger", "tik-tok"];
 if (blog_labels = "undefined" != typeof _bl ? _bl : {},
@@ -1505,4 +1581,3 @@ if (document.querySelector(".post-random")) {
         document.querySelector("#bot-red").after(document.querySelector("#RandomPosts"))
     }
 }
-
