@@ -9,7 +9,7 @@ Icons({
     "xmlns$thr": "http://purl.org/syndication/thread/1.0",
     "xmlns$blogger": "http://schemas.google.com/blogger/2008",
     "id": {
-      "$t": "tag:blogger.com,1999:blog-1305811664142792391"
+      "$t": "https://raw.githack.com/bouaicidz/V7/main/Icon.js"
     },
     "published": {
       "$t": "25/05/2024"
